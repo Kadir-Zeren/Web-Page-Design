@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#header-1 {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+}
+
+#logo {
+  height: 5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+header ul {
+  float: right;
+  margin: 2rem;
+}
+header ul li {
+  display: inline;
+}
+header ul li a {
+  text-decoration: none;
+  color: #920101;
+  font-size: 2rem;
+}
+header ul li a:hover {
+  text-decoration: underline;
+}
