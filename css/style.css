@@ -24,7 +24,29 @@ header ul li a {
   text-decoration: none;
   color: #920101;
   font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
 }
 header ul li a:hover {
   text-decoration: underline;
+}
+nav {
+  height: 5rem;
+  background-color: #fad961;
+  background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+}
+nav ul {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "DynaPuff", cursive;
+}
+nav ul li a:hover {
+  color: white;
 }
