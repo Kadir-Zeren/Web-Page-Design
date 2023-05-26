@@ -93,3 +93,25 @@ p {
   font-family: "Open Sans", sans-serif;
   width: 50rem;
 }
+
+.icon {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  position: fixed;
+  left: 85rem;
+  top: 40rem;
+}
+.icon:hover {
+  color: black;
+  cursor: pointer;
+  outline: 2px solid black;
+  outline-offset: 0.2rem;
+}
